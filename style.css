@@ -1,0 +1,97 @@
+.frame .overlap1 {
+    height: 61px;
+    top: 0;
+    background-color: #91d3d9;
+    position: absolute;
+    width: 1200px;
+    left: 0;
+  }
+  
+  .frame .rectangulo1 {
+    position: absolute;
+    width: 248px;
+    height: 29px;
+    top: 32px;
+    left: 352px;
+    background-color: #d9d8d7;
+  }
+  
+  .frame .rectangulo2 {
+    position: absolute;
+    width: 104px;
+    height: 29px;
+    top: 32px;
+    left: 0;
+    background-color: #f68360;
+  }
+  
+  .frame .rectangulo3 {
+    position: absolute;
+    width: 248px;
+    height: 29px;
+    top: 32px;
+    left: 104px;
+    background-color: #e6e5e5;
+  }
+  
+  .frame .overlap-2 {
+    height: 56px;
+    top: 61px; /* Position below the first overlap */
+    position: absolute;
+    width: 1200px;
+    left: 0;
+  }
+  
+  .frame .rectangulo-wrapper {
+    position: absolute;
+    width: 1200px;
+    height: 56px;
+    top: 0;
+    left: 0;
+    background-color: #e6e5e5;
+  }
+  
+  .frame .rectangulo-24 {
+    position: relative;
+    width: 992px;
+    height: 24px;
+    top: 17px;
+    left: 104px;
+    background-color: #ffffff;
+  }
+  
+  .frame .rectangulo-25 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 21px;
+    background-color: #cccbca;
+  }
+  
+  .frame .rectangulo-26 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 1117px;
+    background-color: #cccbca;
+  }
+  
+  .frame .rectangulo-27 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 59px;
+    background-color: #cccbca;
+  }
+  
+  .frame .rectangulo-28 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 17px;
+    left: 1155px;
+    background-color: #cccbca;
+  }
