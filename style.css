@@ -1,97 +1,368 @@
-.frame .overlap1 {
-    height: 61px;
-    top: 0;
-    background-color: #91d3d9;
-    position: absolute;
-    width: 1200px;
-    left: 0;
-  }
-  
-  .frame .rectangulo1 {
-    position: absolute;
-    width: 248px;
-    height: 29px;
-    top: 32px;
-    left: 352px;
-    background-color: #d9d8d7;
-  }
-  
-  .frame .rectangulo2 {
-    position: absolute;
-    width: 104px;
-    height: 29px;
-    top: 32px;
-    left: 0;
-    background-color: #f68360;
-  }
-  
-  .frame .rectangulo3 {
-    position: absolute;
-    width: 248px;
-    height: 29px;
-    top: 32px;
-    left: 104px;
-    background-color: #e6e5e5;
-  }
-  
-  .frame .overlap-2 {
-    height: 56px;
-    top: 61px; /* Position below the first overlap */
-    position: absolute;
-    width: 1200px;
-    left: 0;
-  }
-  
-  .frame .rectangulo-wrapper {
-    position: absolute;
-    width: 1200px;
-    height: 56px;
-    top: 0;
-    left: 0;
-    background-color: #e6e5e5;
-  }
-  
-  .frame .rectangulo-24 {
-    position: relative;
-    width: 992px;
-    height: 24px;
-    top: 17px;
-    left: 104px;
-    background-color: #ffffff;
-  }
-  
-  .frame .rectangulo-25 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 21px;
-    background-color: #cccbca;
-  }
-  
-  .frame .rectangulo-26 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1117px;
-    background-color: #cccbca;
-  }
-  
-  .frame .rectangulo-27 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 59px;
-    background-color: #cccbca;
-  }
-  
-  .frame .rectangulo-28 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 17px;
-    left: 1155px;
-    background-color: #cccbca;
-  }
+.marco {
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+   }
+   
+   .marco .division {
+     background-color:#ffffff;
+     width:1200px;
+     height:1200px;
+     position:relative;
+   }
+   .marco .superposicion {
+    height:61px;
+    top:0;
+    background-color:#91d3d9;
+    position:absolute;
+    width:1200px;
+    left:0;
+   }
+   
+   .marco .tab3 {
+    position:absolute;
+    width:248px;
+    height:29px;
+    top:32px;
+    left:352px;
+    background-color:#d9d8d7;
+   }
+   
+   .marco .tabroja {
+     position:absolute;
+     width:104px;
+     height:29px;
+     top:32px;
+     left:0;
+     background-color:#f68360;
+   }
+   .marco .tab2 {
+     position:absolute;
+     width:248px;
+     height:29px;
+     top:32px;
+     left:104px;
+     background-color:#e6e5e5;
+   }
+   
+   .marco .footer { 
+     height:139px;
+     top:1061px;
+     background-color:#e6e5e5;
+     position:absolute;
+     width:1200px;
+     left:0;
+   }
+   .marco .rect-4 {
+    position:absolute;
+    width:187px;
+    height:22px;
+    top:23px;
+    left:853px;
+    background-color:#cccbca;
+   }
+   .marco .rect-5 {
+    position:absolute;
+    width:187px;
+    height:22px;
+    top:23px;
+    left:507px;
+    background-color:#cccbca;
+   }
+   .marco .rect-6 {
+    position:absolute;
+    width:187px;
+    height:22px;
+    top:23px;
+    left:160px;
+    background-color:#cccbca;
+   }
+   
+   .marco .textito1 {
+    position:absolute;
+    width:187px;
+    height:51px;
+    top:62px;
+    left:853px;
+   }
+   .marco .rect-7 {
+     position:absolute;
+     width:187px;
+     height:7px;
+     top:0;
+     left:0;
+     background-color:#ffffff;
+   }
+   .marco .rect-8 {
+     position:absolute;
+     width:187px;
+     height:7px;
+     top:23px;
+     left:0;
+     background-color:#ffffff;
+   }
+   .marco .rect-9 {
+     position:absolute;
+     width:97px;
+     height:7px;
+     top:44px;
+     left:45px;
+     background-color:#ffffff;
+   }
+   
+   .marco .textito2 {
+    position:absolute;
+    width:187px;
+    height:51px;
+    top:62px;
+    left:507px;
+   }
+   .marco .textito3 {
+    position:absolute;
+    width:187px;
+    height:51px;
+    top:62px;
+    left:160px;
+   }
+   
+   .marco .headeramarillo { 
+    height:277px;
+    top:117px;
+    background-color:#ffd680;
+    position:absolute;
+    width:1200px;
+    left:0;
+   }
+   .marco .rect-10 {
+    position:absolute;
+    width:187px;
+    height:188px;
+    top:47px;
+    left:160px;
+    background-color:#ffc86d;
+   }
+   .marco .rect-11 {
+    position:absolute;
+    width:256px;
+    height:29px;
+    top:46px;
+    left:518px;
+    background-color:#ffb959;
+   }
+   .marco .linea1 {
+    position:absolute;
+    width:515px;
+    height:11px;
+    top:100px;
+    left:518px;
+    background-color:#ffffff;
+   }
+   .marco .linea2 {
+    position:absolute;
+    width:515px;
+    height:11px;
+    top:141px;
+    left:518px;
+    background-color:#ffffff;
+   }
+   .marco .linea3 {
+    position:absolute;
+    width:515px;
+    height:11px;
+    top:182px;
+    left:518px;
+    background-color:#ffffff;
+   }
+   .marco .linea4 {
+    position:absolute;
+    width:256px;
+    height:11px;
+    top:223px;
+    left:518px;
+    background-color:#ffffff;
+   }
+   
+   .marco .cartasAbajo {
+    position:absolute;
+    width:880px;
+    height:188px;
+    top:771px;
+    left:160px;
+   }
+   .marco .carta4 {
+     position:absolute;
+     width:188px;
+     height:188px;
+     top:0;
+     left:0;
+     background-color:#ffd680;
+   }
+   .marco .rect-16 {
+     position:absolute;
+     width:188px;
+     height:26px;
+     top:0;
+     left:0;
+     background-color:#ffc86d;
+   }
+   .marco .rect-17 {
+     position:absolute;
+     width:92px;
+     height:92px;
+     top:48px;
+     left:49px;
+     background-color:#ffc86d;
+   }
+   
+   .marco .carta5 {
+    position:absolute;
+    width:188px;
+    height:188px;
+    top:0;
+    left:346px;
+    background-color:#c4edf1;
+   }
+   .marco .rect-18 {
+    position:absolute;
+    width:188px;
+    height:26px;
+    top:0;
+    left:0;
+    background-color:#abe0e5;
+   }
+   .marco .rect-19 {
+    position:absolute;
+    width:92px;
+    height:92px;
+    top:48px;
+    left:48px;
+    background-color:#abe0e5;
+   }
+   .marco .carta6 {
+    position:absolute;
+    width:188px;
+    height:188px;
+    top:0;
+    left:692px;
+    background-color:#ff9978;
+   }
+   .marco .rect-20 {
+    position:absolute;
+    width:188px;
+    height:26px;
+    top:0;
+    left:0;
+    background-color:#f68360;
+   }
+   .marco .rect-21 {
+    position:absolute;
+    width:92px;
+    height:92px;
+    top:48px;
+    left:48px;
+    background-color:#f68360;
+   }
+   .marco .cartasArriba {
+    position:absolute;
+    width:880px;
+    height:188px;
+    top:509px;
+    left:160px;
+   }
+   .marco .carta1 {
+     position:absolute;
+     width:188px;
+     height:188px;
+     top:0;
+     left:0;
+     background-color:#c4edf1;
+   }
+   .marco .rect-22 {
+     position:absolute;
+     width:92px;
+     height:92px;
+     top:48px;
+     left:49px;
+     background-color:#abe0e5;
+   }
+   .marco .carta2 {
+    position:absolute;
+    width:188px;
+    height:188px;
+    top:0;
+    left:346px;
+    background-color:#ff9978;
+   }
+   .marco .carta3 {
+    position:absolute;
+    width:188px;
+    height:188px;
+    top:0;
+    left:692px;
+    background-color:#ffd680;
+   }
+   .marco .rect-23 {
+    position:absolute;
+    width:92px;
+    height:92px;
+    top:48px;
+    left:48px;
+    background-color:#ffc86d;
+   }
+   .marco .superposicion-2 { 
+    height:56px;
+    top:61px;
+    position:absolute;
+    width:1200px;
+    left:0;
+   }
+   .marco .contenedor-rect { 
+     position:absolute;
+     width:1200px;
+     height:56px;
+     top:0;
+     left:0;
+     background-color:#e6e5e5;
+   }
+   .marco .rect-24 {
+     position:relative;
+     width:992px;
+     height:24px;
+     top:17px;
+     left:104px;
+     background-color:#ffffff;
+   }
+   .marco .rect-25 {
+    position:absolute;
+    width:24px;
+    height:24px;
+    top:17px;
+    left:21px;
+    background-color:#cccbca;
+   }
+   .marco .rect-26 {
+    position:absolute;
+    width:24px;
+    height:24px;
+    top:17px;
+    left:1117px;
+    background-color:#cccbca;
+   }
+   .marco .rect-27 {
+    position:absolute;
+    width:24px;
+    height:24px;
+    top:17px;
+    left:59px;
+    background-color:#cccbca;
+   }
+   .marco .rect-28 {
+    position:absolute;
+    width:24px;
+    height:24px;
+    top:17px;
+    left:1155px;
+    background-color:#cccbca;
+   }
